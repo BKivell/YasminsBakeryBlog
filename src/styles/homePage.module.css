@@ -1,0 +1,12 @@
+/* Add this CSS to your stylesheets or CSS module */
+.circle-button {
+    width: 250px;
+    height: 250px;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%; /* Create circular shape */
+    margin: 10px; /* Adjust spacing between buttons */
+  }
+  
