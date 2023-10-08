@@ -1,6 +1,7 @@
 // components/navbar.tsx
 import React from 'react';
 import Image from 'next/image'; // Import the Image component
+import Link from 'next/link'; // Import the Link component
 import logoImage from '../images/YasminLogo.png'; // Adjust the path as needed
 import styles from '../styles/navbar.module.css'; // Import your CSS module
 
@@ -14,7 +15,9 @@ function Navbar() {
         />
       </div>
       <ul className={styles.navLinks}>
-        <li><a href="/login">LOGIN</a></li>
+        <li>
+          <Link href="/login">LOGIN</Link>
+        </li>
       </ul>
     </nav>
   );
